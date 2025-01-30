@@ -6,7 +6,20 @@ const FAQ = () => {
     },
     {
       question: "How do I join the Syndicate?",
-      answer: "You must be an accredited investor and sign up for an account on AngelList. Once you get approved from AngelList, join our private syndicate. Join our channel #xtripe-angels in the Alumni Slack. This DOES NOT represent a legally binding commitment to capital."
+      answer: (
+        <>
+          You must be an accredited investor and sign up for an account on AngelList. Once you get approved from AngelList, join our{' '}
+          <a 
+            href="https://angel.co/s/xtripe-angels/y1SVv" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-[--stripe-purple] hover:opacity-80 transition-opacity"
+          >
+            private syndicate
+          </a>
+          . Join our channel #xtripe-angels in the Alumni Slack. This DOES NOT represent a legally binding commitment to capital.
+        </>
+      )
     },
     {
       question: "Can I invite others to the syndicate?",
@@ -65,7 +78,7 @@ const FAQ = () => {
         {faqs.map((faq, index) => (
           <div key={index} className="border-b pb-6">
             <h3 className="text-xl font-semibold mb-2">{faq.question}</h3>
-            <p className="text-gray-600">{faq.answer}</p>
+            <div className="text-gray-600">{faq.answer}</div>
           </div>
         ))}
       </div>

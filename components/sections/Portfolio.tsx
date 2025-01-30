@@ -84,19 +84,25 @@ const Portfolio = () => {
       name: "Ash Wellness",
       description: "Healthcare solutions",
       date: "April 2024",
-      founder: "David Stein"
+      founder: "David Stein",
+      founderLinkedIn: "https://www.linkedin.com/in/davidstein100/",
+      companyLinkedIn: "https://www.linkedin.com/company/meetashwellness/"
     },
     {
       name: "Inversion Space",
       description: "Space technology",
       date: "July 2024",
-      founder: "Justin Fiaschetti"
+      founder: "Justin Fiaschetti",
+      founderLinkedIn: "https://www.linkedin.com/in/justin-fiaschetti-097b10166/",
+      companyLinkedIn: "https://www.linkedin.com/company/inversion-space/"
     },
     {
       name: "Macro Oceans",
       description: "Ocean technology",
       date: "January 2025",
-      founder: "Matthew Perkins"
+      founder: "Matthew Perkins",
+      founderLinkedIn: "https://www.linkedin.com/in/mfperkins/",
+      companyLinkedIn: "https://www.linkedin.com/company/macro-oceans/"
     }
   ];
 
