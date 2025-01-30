@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --stripe-purple: #635bff;
+  --stripe-dark: #0a2540;
+}
+
+body {
+  color: var(--stripe-dark);
+  background: #fff;
+  overflow-x: hidden;
+}
+
+.gradient-bg {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(242,242,247,0.5) 100%);
+}
+
+.nav-blur {
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+/* Gradient Blobs */
+.gradient-blob {
+  position: absolute;
+  width: 900px;
+  height: 900px;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+.gradient-blob-1 {
+  background: linear-gradient(to right, #635bff, #ff8a80);
+  top: -400px;
+  right: -300px;
+}
+
+.gradient-blob-2 {
+  background: linear-gradient(to right, #80b3ff, #635bff);
+  top: 200px;
+  left: -400px;
+}
+
+.gradient-blob-3 {
+  background: linear-gradient(to right, #635bff, #ff8a80);
+  bottom: -200px;
+  right: -200px;
+} 

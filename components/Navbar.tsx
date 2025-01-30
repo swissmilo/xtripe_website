@@ -15,12 +15,13 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed w-full bg-white/90 backdrop-blur-sm z-50 shadow-sm">
-      <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center h-16">
+    <nav className="fixed w-full nav-blur z-50 border-b border-gray-100">
+      <div className="w-full px-6">
+        <div className="flex justify-between items-center h-24">
           <div className="flex-shrink-0">
-            <Link href="/" className="text-xl font-bold">
-              xTripe Syndicate
+            <Link href="/" className="text-5xl font-semibold text-[--stripe-dark] leading-none">
+              <span className="block">Xtripe</span>
+              <span className="block">Syndicate</span>
             </Link>
           </div>
 
@@ -31,7 +32,7 @@ const Navbar = () => {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-gray-700 hover:text-gray-900 transition-colors"
+                  className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
                 >
                   {item.name}
                 </Link>
