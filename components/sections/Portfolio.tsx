@@ -6,7 +6,7 @@ const Portfolio = () => {
       date: "January 2021",
       founder: "Alex Kehayias",
       founderLinkedIn: "https://www.linkedin.com/in/alexkehayias/",
-      companyLinkedIn: "https://www.linkedin.com/company/mosey-inc/"
+      companyLinkedIn: "https://www.linkedin.com/company/moseyworks/"
     },
     {
       name: "Wholesail",
@@ -14,7 +14,7 @@ const Portfolio = () => {
       date: "June 2021",
       founder: "Eli Chait and Corey Reese",
       founderLinkedIn: ["https://www.linkedin.com/in/elichait/", "https://www.linkedin.com/in/coreyreese/"],
-      companyLinkedIn: "https://www.linkedin.com/company/wholesail/"
+      companyLinkedIn: "https://www.linkedin.com/company/paywholesail/"
     },
     {
       name: "Arc",
@@ -22,7 +22,7 @@ const Portfolio = () => {
       date: "July 2021",
       founder: "Don Muir and Nick Lombardo",
       founderLinkedIn: ["https://www.linkedin.com/in/donmuir/", "https://www.linkedin.com/in/nicklombardo/"],
-      companyLinkedIn: "https://www.linkedin.com/company/arc-technologies-inc/"
+      companyLinkedIn: "https://www.linkedin.com/company/join-arc/"
     },
     {
       name: "Encuadrado",
@@ -38,23 +38,23 @@ const Portfolio = () => {
       date: "January 2022",
       founder: "Justin Killian",
       founderLinkedIn: "https://www.linkedin.com/in/justinkillian/",
-      companyLinkedIn: "https://www.linkedin.com/company/vela/"
+      companyLinkedIn: "https://www.linkedin.com/company/getvela/"
     },
     {
       name: "Stainless",
       description: "Platform for high-quality, easy-to-use APIs",
       date: "July 2022",
       founder: "Alex Rattray",
-      founderLinkedIn: "https://www.linkedin.com/in/rattrayalex/",
-      companyLinkedIn: "https://www.linkedin.com/company/stainlessapi/"
+      founderLinkedIn: "https://www.linkedin.com/in/alexrattray/",
+      companyLinkedIn: "https://www.linkedin.com/company/stainless-api/"
     },
     {
       name: "Griz",
       description: "Scaling data science the way Figma scaled design",
       date: "August 2022",
       founder: "Christian Griset",
-      founderLinkedIn: "https://www.linkedin.com/in/christiangriset/",
-      companyLinkedIn: "https://www.linkedin.com/company/griz-ai/"
+      founderLinkedIn: "https://www.linkedin.com/in/christian-griset-6b662749/",
+      companyLinkedIn: "http://www.ellipticlabs.ai/"
     },
     {
       name: "Versa (fka Bend)",
@@ -77,8 +77,8 @@ const Portfolio = () => {
       description: "Simple multiplayer investment and planning for modern households",
       date: "April 2023",
       founder: "Emily Luk and Channing Allen",
-      founderLinkedIn: ["https://www.linkedin.com/in/emilyluk/", "https://www.linkedin.com/in/channingallen/"],
-      companyLinkedIn: "https://www.linkedin.com/company/plenty/"
+      founderLinkedIn: ["https://www.linkedin.com/in/emilylukca/", "https://www.linkedin.com/in/cchanningallen/"],
+      companyLinkedIn: "https://www.linkedin.com/company/plentyfinancial/"
     },
     {
       name: "Ash Wellness",
