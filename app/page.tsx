@@ -16,7 +16,7 @@ export default function Home() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 relative">
+      <section className="pt-32 pb-20 px-6 sm:px-4 relative">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6 text-[--stripe-dark]">
             Investing in the next generation of Stripe alumni
@@ -37,23 +37,23 @@ export default function Home() {
 
       {/* Content sections with gradient background */}
       <div className="gradient-bg relative">
-        <section id="about" className="py-24">
+        <section id="about" className="py-24 px-6 sm:px-4">
           <About />
         </section>
 
-        <section id="portfolio" className="py-24 bg-white">
+        <section id="portfolio" className="py-24 px-6 sm:px-4 bg-white">
           <Portfolio />
         </section>
 
-        <section id="team" className="py-24">
+        <section id="team" className="py-24 px-6 sm:px-4">
           <Team />
         </section>
 
-        <section id="faq" className="py-24 bg-white">
+        <section id="faq" className="py-24 px-6 sm:px-4 bg-white">
           <FAQ />
         </section>
 
-        <section id="contact" className="py-24">
+        <section id="contact" className="py-24 px-6 sm:px-4">
           <Contact />
         </section>
       </div>
