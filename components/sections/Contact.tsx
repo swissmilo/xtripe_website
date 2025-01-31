@@ -1,7 +1,5 @@
 'use client';
 
-import { useState } from 'react';
-
 const Contact = () => {
   const handleContact = () => {
     const subject = encodeURIComponent("Xtripe Syndicate Inquiry");
