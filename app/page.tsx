@@ -16,7 +16,7 @@ export default function Home() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-40 sm:pt-60 pb-20 px-6 sm:px-4 relative">
+      <section className="pt-40 sm:pt-60 pb-5 px-6 sm:px-4 relative">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-8 sm:mb-6 text-[--stripe-dark] leading-tight">
             Investing in the next generation of Stripe alumni
