@@ -37,23 +37,23 @@ export default function Home() {
 
       {/* Content sections with gradient background */}
       <div className="gradient-bg relative">
-        <section id="about" className="py-24 px-6 sm:px-4">
+        <section id="about" className="py-16 sm:py-24 px-6 sm:px-4">
           <About />
         </section>
 
-        <section id="portfolio" className="py-24 px-6 sm:px-4 bg-white">
+        <section id="portfolio" className="py-16 sm:py-24 px-6 sm:px-4 bg-white">
           <Portfolio />
         </section>
 
-        <section id="team" className="py-24 px-6 sm:px-4">
+        <section id="team" className="py-16 sm:py-24 px-6 sm:px-4">
           <Team />
         </section>
 
-        <section id="faq" className="py-24 px-6 sm:px-4 bg-white">
+        <section id="faq" className="py-16 sm:py-24 px-6 sm:px-4 bg-white">
           <FAQ />
         </section>
 
-        <section id="contact" className="py-24 px-6 sm:px-4">
+        <section id="contact" className="py-16 sm:py-24 px-6 sm:px-4">
           <Contact />
         </section>
       </div>
