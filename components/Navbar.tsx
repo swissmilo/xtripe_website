@@ -17,11 +17,21 @@ const Navbar = () => {
   return (
     <nav className="fixed w-full nav-blur z-50 border-b border-gray-100">
       <div className="w-full px-6">
-        <div className="flex justify-between items-center h-24">
+        <div className="flex justify-between items-center h-32">
           <div className="flex-shrink-0">
-            <Link href="/" className="text-5xl font-semibold text-[--stripe-dark] leading-none">
-              <span className="block">Xtripe</span>
-              <span className="block">Syndicate</span>
+            <Link href="/" className="block">
+              {/* Desktop logo */}
+              <img 
+                src="/logo.svg" 
+                alt="Xtripe Syndicate"
+                className="hidden md:block h-28 w-auto"
+              />
+              {/* Mobile logo (favicon) */}
+              <img 
+                src="/favicon.svg" 
+                alt="Xtripe Syndicate"
+                className="md:hidden h-16 w-auto"
+              />
             </Link>
           </div>
 
@@ -32,7 +42,7 @@ const Navbar = () => {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
+                  className="text-base font-medium text-gray-600 hover:text-gray-900 transition-colors"
                 >
                   {item.name}
                 </Link>
@@ -68,7 +78,7 @@ const Navbar = () => {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="block px-3 py-2 text-gray-700 hover:text-gray-900 transition-colors"
+                  className="block px-3 py-2 text-base text-gray-700 hover:text-gray-900 transition-colors"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.name}

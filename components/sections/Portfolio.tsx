@@ -2,6 +2,7 @@ const Portfolio = () => {
   const companies = [
     {
       name: "Mosey",
+      logo: "/logos/mosey.jpeg",
       description: "Easy state registration and compliance management for hiring anywhere",
       date: "January 2021",
       founder: "Alex Kehayias",
@@ -10,6 +11,7 @@ const Portfolio = () => {
     },
     {
       name: "Wholesail",
+      logo: "/logos/paywholesail.jpeg",
       description: "Accounts receivable automation system for businesses of all sizes",
       date: "June 2021",
       founder: "Eli Chait and Corey Reese",
@@ -18,6 +20,7 @@ const Portfolio = () => {
     },
     {
       name: "Arc",
+      logo: "/logos/arc.jpeg",
       description: "Digitally-native investment bank for startups",
       date: "July 2021",
       founder: "Don Muir and Nick Lombardo",
@@ -26,6 +29,7 @@ const Portfolio = () => {
     },
     {
       name: "Encuadrado",
+      logo: "/logos/encuadrado.jpeg",
       description: "Software for Latin American businesses to schedule, pay, and invoice",
       date: "September 2021",
       founder: "Thomas Maremaa",
@@ -34,6 +38,7 @@ const Portfolio = () => {
     },
     {
       name: "Vela",
+      logo: "/logos/vela.jpeg",
       description: "Multi-platform ecommerce optimization for sellers",
       date: "January 2022",
       founder: "Justin Killian",
@@ -42,6 +47,7 @@ const Portfolio = () => {
     },
     {
       name: "Stainless",
+      logo: "/logos/stainless.jpeg",
       description: "Platform for high-quality, easy-to-use APIs",
       date: "July 2022",
       founder: "Alex Rattray",
@@ -49,8 +55,9 @@ const Portfolio = () => {
       companyLinkedIn: "https://www.linkedin.com/company/stainless-api/"
     },
     {
-      name: "Griz",
-      description: "Scaling data science the way Figma scaled design",
+      name: "Elliptic (fka Griz)",
+      logo: "/logos/elliptic.png",
+      description: "Production-Grade Search and Retrieval",
       date: "August 2022",
       founder: "Christian Griset",
       founderLinkedIn: "https://www.linkedin.com/in/christian-griset-6b662749/",
@@ -58,6 +65,7 @@ const Portfolio = () => {
     },
     {
       name: "Versa (fka Bend)",
+      logo: "/logos/versa.jpeg",
       description: "Smart receipts for your business spend",
       date: "September 2022",
       founder: "Ted Power",
@@ -66,6 +74,7 @@ const Portfolio = () => {
     },
     {
       name: "Userfront",
+      logo: "/logos/userfront.jpeg",
       description: "Secure authentication and access control platform",
       date: "January 2023",
       founder: "Tyler Warnock",
@@ -74,6 +83,7 @@ const Portfolio = () => {
     },
     {
       name: "Plenty",
+      logo: "/logos/plenty.jpeg",
       description: "Simple multiplayer investment and planning for modern households",
       date: "April 2023",
       founder: "Emily Luk and Channing Allen",
@@ -82,6 +92,7 @@ const Portfolio = () => {
     },
     {
       name: "Ash Wellness",
+      logo: "/logos/ash.jpeg",
       description: "Healthcare solutions",
       date: "April 2024",
       founder: "David Stein",
@@ -90,6 +101,7 @@ const Portfolio = () => {
     },
     {
       name: "Inversion Space",
+      logo: "/logos/inversion.jpeg",
       description: "Space technology",
       date: "July 2024",
       founder: "Justin Fiaschetti",
@@ -98,6 +110,7 @@ const Portfolio = () => {
     },
     {
       name: "Macro Oceans",
+      logo: "/logos/macro.jpeg",
       description: "Ocean technology",
       date: "January 2025",
       founder: "Matthew Perkins",
@@ -121,6 +134,13 @@ const Portfolio = () => {
               rel="noopener noreferrer"
               className="block group"
             >
+              <div className="h-12 mb-4 flex items-center">
+                <img 
+                  src={company.logo} 
+                  alt={`${company.name} logo`}
+                  className="max-h-full w-auto object-contain"
+                />
+              </div>
               <h3 className="text-xl font-semibold mb-2 group-hover:text-[--stripe-purple] transition-colors">
                 {company.name}
               </h3>

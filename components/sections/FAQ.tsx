@@ -17,17 +17,17 @@ const FAQ = () => {
           >
             private syndicate
           </a>
-          . Join our channel #xtripe-angels in the Alumni Slack. This DOES NOT represent a legally binding commitment to capital.
+          . In addition, join our channel #xtripe-angels in the Alumni Slack. This DOES NOT represent a legally binding commitment to capital.
         </>
       )
     },
     {
       question: "Can I invite others to the syndicate?",
-      answer: "You may invite other Stripe Alumni (Xtripes)."
+      answer: "You may invite other Stripe Alumni (Xtripes) and current employees."
     },
     {
-      question: "Can only Stripe Alumni invest?",
-      answer: "We prioritize internal capital from Stripe Alumni. For certain deals we might co-syndicate or invite select individuals to fill up the allocation."
+      question: "Can only Stripe (Alumni) invest?",
+      answer: "We prioritize internal capital from Stripe (Alumni). For certain deals we might co-syndicate or invite select individuals to fill up the allocation."
     },
     {
       question: "How much of an allocation do you ask for per deal?",
@@ -47,11 +47,11 @@ const FAQ = () => {
     },
     {
       question: "Can I refer an investment opportunity to the syndicate?",
-      answer: "Yes, absolutely! Many of our deals come through our alumni network, just send us a DM on Slack. If the syndicate ends up investing into the deal, you will get a an equal 5% share of the carry."
+      answer: "Yes, absolutely! Many of our deals come through our alumni network, just send us a message. If the syndicate ends up investing into the deal, you will get a an equal 5% share of the carry."
     },
     {
       question: "How does the investment process work?",
-      answer: "For every investment opportunity, we will send out an investment memo and if the founder agrees, set up a video pitch session & Q&A (we will record these for those that cannot attend live). Afterward, we ask members to submit commitments through our form (give a 3-7 day deadline). If we see over $100k+ in commitments submitted, one of our leads will create the AngelList page and invite everyone who signed up to send their funds over AngelList (who then remits funds to the startup)."
+      answer: "For every investment opportunity, we will meet with the founders and send out an investment memo. Afterward, we ask members to submit commitments through our form (give a 3-7 day deadline). If we see over $100k+ in commitments submitted, one of our leads will create the AngelList page and invite everyone who signed up to send their funds over AngelList (who then remits funds to the startup)."
     },
     {
       question: "How many deals do we invest in per year?",
