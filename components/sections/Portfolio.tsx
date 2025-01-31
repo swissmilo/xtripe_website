@@ -126,7 +126,7 @@ const Portfolio = () => {
         {companies.map((company) => (
           <div
             key={company.name}
-            className="border rounded-lg p-6 hover:shadow-lg transition-shadow"
+            className="border rounded-lg p-6 hover:shadow-lg transition-all duration-300 transform-gpu hover:-translate-y-1 hover:rotate-1 hover:scale-[1.02]"
           >
             <a 
               href={company.companyLinkedIn}
