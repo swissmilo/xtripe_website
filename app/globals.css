@@ -14,7 +14,10 @@ body {
 }
 
 .gradient-bg {
-  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(242,242,247,0.5) 100%);
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(242,242,247,0.7) 100%);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
 }
 
 .nav-blur {
@@ -24,31 +27,32 @@ body {
 
 /* Gradient Blobs */
 .gradient-blob {
-  position: absolute;
-  width: 900px;
-  height: 900px;
+  position: fixed;
+  width: 100vh;
+  height: 100vh;
   border-radius: 50%;
   filter: blur(100px);
   opacity: 0.15;
   pointer-events: none;
+  transform: translate3d(0, 0, 0);
 }
 
 .gradient-blob-1 {
   background: linear-gradient(to right, #635bff, #ff8a80);
-  top: -400px;
-  right: -300px;
+  top: -20vh;
+  right: -20vh;
 }
 
 .gradient-blob-2 {
   background: linear-gradient(to right, #80b3ff, #635bff);
-  top: 200px;
-  left: -400px;
+  top: 30vh;
+  left: -30vh;
 }
 
 .gradient-blob-3 {
   background: linear-gradient(to right, #635bff, #ff8a80);
-  bottom: -200px;
-  right: -200px;
+  bottom: -20vh;
+  right: -20vh;
 }
 
 /* Add this to your existing styles */
