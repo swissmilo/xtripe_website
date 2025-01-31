@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Xtripe Syndicate",
   description: "An angel syndicate for Stripe alumni",
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
