@@ -93,7 +93,7 @@ const Portfolio = () => {
     {
       name: "Ash Wellness",
       logo: "/logos/ash.jpeg",
-      description: "Healthcare solutions",
+      description: "Switch on health testing nationwide",
       date: "April 2024",
       founder: "David Stein",
       founderLinkedIn: "https://www.linkedin.com/in/davidstein100/",
@@ -102,7 +102,7 @@ const Portfolio = () => {
     {
       name: "Inversion Space",
       logo: "/logos/inversion.jpeg",
-      description: "Space technology",
+      description: "Making Space a Transportation Layer for Earth",
       date: "July 2024",
       founder: "Justin Fiaschetti",
       founderLinkedIn: "https://www.linkedin.com/in/justin-fiaschetti-097b10166/",
@@ -111,7 +111,7 @@ const Portfolio = () => {
     {
       name: "Macro Oceans",
       logo: "/logos/macro.jpeg",
-      description: "Ocean technology",
+      description: "Building a big kelp economy for a low-carbon future",
       date: "January 2025",
       founder: "Matthew Perkins",
       founderLinkedIn: "https://www.linkedin.com/in/mfperkins/",
