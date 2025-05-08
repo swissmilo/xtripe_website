@@ -82,13 +82,13 @@ const Portfolio = () => {
       companyLinkedIn: "https://www.linkedin.com/company/userfront/"
     },
     {
-      name: "Plenty",
+      name: "Plenty (Acquired)",
       logo: "/logos/plenty.jpeg",
       description: "Simple multiplayer investment and planning for modern households",
       date: "April 2023",
       founder: "Emily Luk and Channing Allen",
       founderLinkedIn: ["https://www.linkedin.com/in/emilylukca/", "https://www.linkedin.com/in/cchanningallen/"],
-      companyLinkedIn: "https://www.linkedin.com/company/plentyfinancial/"
+      companyLinkedIn: "https://newsroom.wealthsimple.com/wealthsimple-acquires-wealth-management-platform-plenty"
     },
     {
       name: "Ash Wellness",
