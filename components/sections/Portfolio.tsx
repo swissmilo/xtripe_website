@@ -116,6 +116,15 @@ const Portfolio = () => {
       founder: "Matthew Perkins",
       founderLinkedIn: "https://www.linkedin.com/in/mfperkins/",
       companyLinkedIn: "https://www.linkedin.com/company/macro-oceans/"
+    },
+    {
+      name: "Falconer",
+      logo: "/logos/falconer.jpeg",
+      description: "Knowledge tools for engineers",
+      date: "March 2025",
+      founder: "Dave Nunez",
+      founderLinkedIn: "https://www.linkedin.com/in/djnunez/",
+      companyLinkedIn: "https://www.linkedin.com/company/falconer-ai-company/"
     }
   ];
 
