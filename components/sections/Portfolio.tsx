@@ -137,7 +137,7 @@ const Portfolio = () => {
     },
     {
       name: "QuickFind (aka Source)",
-      logo: "/logos/quickfind.png",
+      logo: "/logos/quickfind_ai.jpeg",
       description: "Effortless 1-click procurement",
       date: "July 2025",
       founder: "Liam Fuller",
