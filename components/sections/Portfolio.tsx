@@ -125,6 +125,24 @@ const Portfolio = () => {
       founder: "Dave Nunez",
       founderLinkedIn: "https://www.linkedin.com/in/djnunez/",
       companyLinkedIn: "https://www.linkedin.com/company/falconer-ai-company/"
+    },
+    {
+      name: "OpenLight",
+      logo: "/logos/openlight.jpeg",
+      description: "Scalable silicon photonics",
+      date: "June 2025",
+      founder: "Dr. Adam Carter",
+      founderLinkedIn: "https://www.linkedin.com/in/adam-carter-5479333/",
+      companyLinkedIn: "https://www.linkedin.com/company/openlightphotonics/"
+    },
+    {
+      name: "QuickFind (aka Source)",
+      logo: "/logos/quickfind.png",
+      description: "Effortless 1-click procurement",
+      date: "July 2025",
+      founder: "Liam Fuller",
+      founderLinkedIn: "https://www.linkedin.com/in/liam-fuller-499637283/",
+      companyLinkedIn: "https://www.linkedin.com/company/ai-source/"
     }
   ];
 
